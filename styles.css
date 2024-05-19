@@ -297,6 +297,11 @@ section {
     text-align: center;
 }
 
+.text-container {
+    padding: 0 10%;
+    line-height: 1.5rem;
+}
+
 .section-container {
     gap: 4rem;
     height: 80%;
@@ -323,8 +328,8 @@ section {
 
 .experience-details-container {
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    align-items: center;
 }
 
 .article-container {
@@ -333,13 +338,15 @@ section {
     flex-wrap: wrap;
     flex-direction: row;
     gap: 2.5rem;
-    justify-content: space-around;
+    justify-content:center;
+    max-width: 800px;
 }
 
 article {
     display: flex;
+    align-items: center;
     width: 10rem;
-    justify-content: space-around;
+    text-align: left;
     gap: 0.5rem;
 }
 
