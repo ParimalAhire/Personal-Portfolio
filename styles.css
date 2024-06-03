@@ -168,6 +168,10 @@ section {
     margin: auto 0;
 }
 
+.section_pic-container img{
+    border-radius: 200px;
+}
+
 .section_text {
     align-self: center;
     text-align: center;
@@ -339,9 +343,7 @@ section {
 
 article {
     display: flex;
-    align-items: center;
     width: 10rem;
-    text-align: left;
     gap: 0.5rem;
 }
 
@@ -443,7 +445,7 @@ button[type="submit"] {
 /* Footer Section */
 
 footer {
-    height: 15vh;
+    align-items: baseline;
     margin: 5rem 1rem;
 }
 
